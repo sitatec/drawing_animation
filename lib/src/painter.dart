@@ -289,7 +289,8 @@ abstract class PathPainter extends CustomPainter {
 
   void paintPrepare(Canvas canvas, Size size) {
     canPaint = animation.status == AnimationStatus.forward ||
-        animation.status == AnimationStatus.completed;
+        animation.status == AnimationStatus.completed ||
+        animation.status == AnimationStatus.reverse;
 
     if (canPaint) viewBoxToCanvas(canvas, size);
   }
