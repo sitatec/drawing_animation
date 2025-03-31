@@ -10,10 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  xml: ^6.0.1
-  path_parsing: ^1.0.0
+  xml: ^6.5.0
+  path_parsing: ^1.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^5.0.10
+  mockito: ^5.4.5
